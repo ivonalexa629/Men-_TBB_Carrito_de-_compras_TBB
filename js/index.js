@@ -16,5 +16,4 @@ function crearTarjetasProductosInicio(productos){
         
     });
 }
-
-crearTarjetasProductosInicio(comida);
+getProductos().then(comida =>{crearTarjetasProductosInicio(comida);})
